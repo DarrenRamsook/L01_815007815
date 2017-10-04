@@ -10,6 +10,7 @@ void main(void)
     int a;
     TRISB = 0x00;
     for(a = 1; a< 15 ; a++){
-        PORTB = a;
+        PORTB = a; 
+        /*This is a change*/
     }
 }
